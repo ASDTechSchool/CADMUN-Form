@@ -1,0 +1,67 @@
+header {
+    width: 100%;
+    height: 30%;
+    margin: auto;
+    background: #5e0202;
+}
+
+main {
+    width: 100%;
+    height: 70%;
+    margin: auto;
+}
+
+.littleSpace {
+	margin-left: 100px;
+	margin-top: 80px;
+}
+
+.bigText input {
+    font-size: 35px;
+}
+
+.bigText1 input {
+    font-size: 35px;
+    color: white;
+}
+
+.imageCenter {
+    margin: 0 auto;
+}
+
+.bigLittleTitle {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0px;
+    color: #5e0202;
+}
+.bigLittleTitle1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #5e0202;
+}
+.bigLittleTitle2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0px;
+    color: white;
+}
+
+.spaced {
+    margin-top: 30px;
+}
+
+
+/* label focus color */
+
+.input-field input[type=text]:focus + label {
+    color: #5e0202;
+}
+
+
+/* label underline focus color */
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #5e0202;
+    box-shadow: 0 1px 0 0 #5e0202;
+}
