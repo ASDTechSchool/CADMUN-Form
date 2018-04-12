@@ -2,7 +2,7 @@ header {
     width: 100%;
     height: 30%;
     margin: auto;
-    background: #5e0202;
+    background: DarkBlue;
 }
 
 main {
@@ -33,12 +33,12 @@ main {
     font-size: 50px;
     font-weight: bold;
     margin: 0px;
-    color: #5e0202;
+    color: DarkBlue;
 }
 .bigLittleTitle1 {
     font-size: 25px;
     font-weight: bold;
-    color: #5e0202;
+    color: DarkBlue;
 }
 .bigLittleTitle2 {
     font-size: 50px;
@@ -55,13 +55,13 @@ main {
 /* label focus color */
 
 .input-field input[type=text]:focus + label {
-    color: #5e0202;
+    color: DarkBlue;
 }
 
 
 /* label underline focus color */
 
 .input-field input[type=text]:focus {
-    border-bottom: 1px solid #5e0202;
-    box-shadow: 0 1px 0 0 #5e0202;
+    border-bottom: 1px solid DarkBlue;
+    box-shadow: 0 1px 0 0 DarkBlue;
 }
